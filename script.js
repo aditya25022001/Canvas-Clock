@@ -36,7 +36,7 @@
     //Drawing hands of the clock at interval of 1000ms
                 drawRectHands('black',165*Math.cos(Math.PI*(seconds/30-1/2)),165*Math.sin(Math.PI*(seconds/30-1/2)),5);
                 drawRectHands('black',145*Math.cos(Math.PI*(actMin/30-1/2)),145*Math.sin(Math.PI*(actMin/30-1/2)),10);
-                drawRectHands('black',110*Math.cos(Math.PI*(actHou/30)),110*Math.sin(Math.PI*(actHou/30)),13);
+                drawRectHands('black',110*Math.cos(Math.PI*(actHou/30+1)),110*Math.sin(Math.PI*(actHou/30+1)),13);
                 
     //Restoring the other part that has been changed
                 canvasElement.restore();
